@@ -28,7 +28,7 @@ export default {
     },
   },
   commands: {
-    debug: (app: IApplicationController) => {
+    debug: (app: any) => {
       const existing = app.getFirstWindowByModel('main')
       if (existing) {
         existing.actions.setActive(true)
