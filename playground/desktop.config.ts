@@ -1,8 +1,8 @@
 import { defineDesktopConfig } from '@owdproject/nuxt'
 
 export default defineDesktopConfig({
-  theme: '@owdproject/theme-nova',
-  apps: ['@owdproject/app-debug'],
+  theme: '@owdproject/theme-nuxt-nova',
+  apps: ['@owdproject/app-nuxt-debug'],
   systemBar: {
     enabled: true,
     startButton: true,

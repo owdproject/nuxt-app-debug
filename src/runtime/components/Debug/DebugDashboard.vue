@@ -97,7 +97,7 @@ const activeProps = computed(() =>
       <header class="debug-shell__main-head">
         <h2 class="debug-shell__main-title">{{ activeSection.label }}</h2>
         <Tag
-          :value="activeSection.group === 'owd' ? 'OWD' : 'kit-primevue'"
+          :value="activeSection.group === 'owd' ? 'OWD' : 'kit-nuxt-primevue'"
           severity="secondary"
         />
       </header>

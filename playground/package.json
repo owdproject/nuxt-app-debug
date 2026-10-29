@@ -1,5 +1,5 @@
 {
-  "name": "@owdproject/app-debug-playground",
+  "name": "@owdproject/app-nuxt-debug-playground",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,9 +8,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@owdproject/app-debug": "workspace:*",
+    "@owdproject/app-nuxt-debug": "workspace:*",
     "@owdproject/core": "^4.0.0-alpha.3",
-    "@owdproject/theme-nova": "^4.0.0-alpha.3",
+    "@owdproject/theme-nuxt-nova": "^4.0.0-alpha.3",
     "nuxt": "^4.4.6"
   }
 }
