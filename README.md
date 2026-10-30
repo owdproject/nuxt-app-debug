@@ -15,7 +15,7 @@ This app for Open Web Desktop is a test module with window states information.
 ## Installation
 
 ```bash
-pnpm desktop add @owdproject/app-nuxt-debug
+pnpm desktop add @owdproject/nuxt-app-debug
 ```
 
 ## License
