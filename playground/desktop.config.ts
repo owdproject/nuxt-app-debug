@@ -1,7 +1,7 @@
 import { defineDesktopConfig } from '@owdproject/nuxt'
 
 export default defineDesktopConfig({
-  theme: '@owdproject/nuxt-theme-nova',
+  theme: '@owdproject/nuxt-theme-paper',
   apps: ['@owdproject/nuxt-app-debug'],
   systemBar: {
     enabled: true,
@@ -9,7 +9,7 @@ export default defineDesktopConfig({
   },
   about: {
     title: 'Debug (playground)',
-    subtitle: 'app-debug · theme-nova',
+    subtitle: 'app-debug · theme-paper',
     href: 'https://github.com/owdproject/nuxt-app-debug',
     versionText: 'Nuxt Desktop',
     icons: [

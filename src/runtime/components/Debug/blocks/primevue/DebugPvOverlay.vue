@@ -51,7 +51,7 @@ function showConfirm() {
     </DebugPvVariantRow>
   </DebugBlock>
 
-  <DebugBlock id="pv-confirmdialog" title="ConfirmDialog" category="Overlay" footer="Used in: theme-nova global provider">
+  <DebugBlock id="pv-confirmdialog" title="ConfirmDialog" category="Overlay" footer="Used in: theme-paper global provider">
     <DebugPvVariantRow label="Default">
       <Button label="Show confirm" size="small" severity="warn" @click="showConfirm" />
     </DebugPvVariantRow>
